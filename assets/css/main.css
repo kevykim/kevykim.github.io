@@ -698,6 +698,11 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			transition: transform .2s;
+		}
+
+		.image.main:hover {
+			transform: scale(1.2);
 		}
 
 			.image.main img {
@@ -1673,4 +1678,14 @@ input, select, textarea {
 		.project_inner_div {
 			padding: 10px;
 			text-align: center;
+		}
+
+		.githubtext {
+			width: 100%;
+			transition: transform .2s;
+		}
+
+		.githubtext:hover {
+			transform: scale(1.0);
+			font-weight: bold;
 		}
