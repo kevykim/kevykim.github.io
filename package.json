@@ -1,7 +1,7 @@
 {
   "name": "kevykim.github.io",
   "version": "0.1.0",
-  "homepage": "https://kevykim/.github.io/kevykim.github.io",
+  "homepage": "https://kevykim/.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
