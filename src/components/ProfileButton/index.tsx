@@ -2,7 +2,6 @@ import React, { useState , useEffect, useRef } from "react";
 import './profile.css'
 
 
-
 const ProfileButton : React.FC = () =>  {
     const [showMenu, setShowMenu] = useState<boolean>(false);
 
@@ -42,7 +41,7 @@ const ProfileButton : React.FC = () =>  {
 				<a className="side_a" href="https://www.linkedin.com/in/kevin-kim-a88429150/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin fa-2xl"></i></a>
 				<a className="side_a" href="https://angel.co/u/kevin-kim-99" target="_blank" rel="noreferrer"><i className="fa-brands fa-angellist fa-2xl"></i></a>
 				<a className="side_a" href="https://github.com/kevykim" target="_blank" rel="noreferrer"><i className="fa-brands fa-github fa-2xl"></i></a>
-				<a className="side_a" href="assets/Kim Kevin Resume.pdf" target="_blank" rel="noreferrer"><i className="fa-solid fa-file fa-2xl"></i></a>
+				<a className="side_a" href="https://docs.google.com/document/d/19daP8CcJ4QXC5EZuWnWLT7eJOEm8rvt7TAZOWhPWqPs/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-file fa-2xl"></i></a>
           </div>
 
         {showMenu && <div className="menu_div" ref={menuRef}>
