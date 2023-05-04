@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kevykim/kevykim.github.io/static/css/main.7aa74fd4.css",
+    "main.js": "/kevykim/kevykim.github.io/static/js/main.797842ce.js",
+    "static/js/787.53752fe1.chunk.js": "/kevykim/kevykim.github.io/static/js/787.53752fe1.chunk.js",
+    "static/media/bg.jpg": "/kevykim/kevykim.github.io/static/media/bg.4df16353fc2497868b70.jpg",
+    "static/media/wintertrails.png": "/kevykim/kevykim.github.io/static/media/wintertrails.7af9325b99956294f30d.png",
+    "static/media/artsy.png": "/kevykim/kevykim.github.io/static/media/artsy.611e5d7b5c30b1eae1af.png",
+    "static/media/pic01.jpg": "/kevykim/kevykim.github.io/static/media/pic01.71ba4cbd6ded6f1a1683.jpg",
+    "static/media/airbb.png": "/kevykim/kevykim.github.io/static/media/airbb.d621d257220cb28faa8c.png",
+    "static/media/avatar.png": "/kevykim/kevykim.github.io/static/media/avatar.801a71a7321b9315bfbf.png",
+    "index.html": "/kevykim/kevykim.github.io/index.html",
+    "main.7aa74fd4.css.map": "/kevykim/kevykim.github.io/static/css/main.7aa74fd4.css.map",
+    "main.797842ce.js.map": "/kevykim/kevykim.github.io/static/js/main.797842ce.js.map",
+    "787.53752fe1.chunk.js.map": "/kevykim/kevykim.github.io/static/js/787.53752fe1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7aa74fd4.css",
+    "static/js/main.797842ce.js"
+  ]
+}
