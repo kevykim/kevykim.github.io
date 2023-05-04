@@ -1,0 +1,43 @@
+#about {
+        background-color: rgba(27, 31, 34, 0.85);
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+}
+
+.about_title {
+    /* align-self: flex-start; */
+    font-size: 20pt;
+    letter-spacing: 0.5rem;
+    width: max-content;
+    color: white;
+    border-bottom: solid 1px white;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    margin: 0 795pt 2rem 0;
+}
+
+
+.about_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: white;
+    width: 1265px;
+    height: 500px;
+}
+
+.about_image {
+    height: 505px;
+    border-radius: 10px;
+}
+
+.about_p {
+    margin: 0 0 2rem 0;
+    font-size: 12.8pt;
+}

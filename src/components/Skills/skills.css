@@ -1,0 +1,106 @@
+#skills {
+    background-color: rgba(27, 31, 34, 0.85);
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.skills_title {
+    font-size: 20pt;
+        letter-spacing: 0.5rem;
+        width: max-content;
+        color: white;
+        border-bottom: solid 1px white;
+        padding-bottom: 0.5rem;
+        font-weight: 700;
+        margin: 0 785pt 2rem 0;
+        text-transform: uppercase;
+}
+
+@-webkit-keyframes bounce {
+	0% {-webkit-transform: translateY(0);}	
+	50% {-webkit-transform: translateY(-10px);}
+	100% {-webkit-transform: translateY(0px);}
+}
+ 
+@-moz-keyframes bounce {
+	0% {-moz-transform: translateY(0);}
+	50% {-moz-transform: translateY(-10px);}
+	100% {-moz-transform: translateY(0px);}
+}
+ 
+@-o-keyframes bounce {
+	0% {-o-transform: translateY(0);}
+	50% {-o-transform: translateY(-10px);}
+	100% {-o-transform: translateY(0px);}
+}
+
+@-ms-keyframes bounce {
+    0% {-o-transform: translateY(0);}
+	50% {-o-transform: translateY(-10px);}
+	100% {-o-transform: translateY(0px);}
+}
+
+@keyframes bounce {
+	0% {transform: translateY(0);}
+	50% {transform: translateY(-10px);}
+	100% {transform: translateY(0px);}
+}
+
+
+
+@-webkit-keyframes bounce1 {
+	0% {-webkit-transform: translateY(0);}	
+	50% {-webkit-transform: translateY(-10px);}
+	100% {-webkit-transform: translateY(0px);}
+}
+ 
+@-moz-keyframes bounce1 {
+	0% {-moz-transform: translateY(0);}
+	50% {-moz-transform: translateY(-10px);}
+	100% {-moz-transform: translateY(0px);}
+}
+ 
+@-o-keyframes bounce1 {
+	0% {-o-transform: translateY(0);}
+	50% {-o-transform: translateY(-10px);}
+	100% {-o-transform: translateY(0px);}
+}
+
+@-ms-keyframes bounce1 {
+    0% {-o-transform: translateY(0);}
+	50% {-o-transform: translateY(-10px);}
+	100% {-o-transform: translateY(0px);}
+}
+
+@keyframes bounce1 {
+	0% {transform: translateY(0);}
+	50% {transform: translateY(-10px);}
+    100% {transform: translateY(0px);}
+}
+
+
+.skills_image {
+    padding: 5px;
+    transform: translatey(0px);
+    animation: 5s infinite ease-in-out  bounce;
+        -webkit-animation: bounce 5s infinite ease-in-out;
+            -moz-animation: bounce 5s infinite ease-in-out;
+            -o-animation: bounce 5s infinite ease-in-out;
+            -ms-animation: bounce 5s infinite ease-in-out;
+}
+
+.skills_image_1 {
+    padding: 5px;
+    transform: translatey(0px);
+    animation: 8s infinite ease-in-out bounce1;
+    -webkit-animation: bounce1 8s infinite ease-in-out;
+        -moz-animation: bounce1 8s infinite ease-in-out;
+        -o-animation: bounce1 8s infinite ease-in-out;
+            -ms-animation: bounce1 8s infinite ease-in-out;
+}
+
+
+
