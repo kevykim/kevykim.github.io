@@ -13,9 +13,13 @@ import Skills from "./components/Skills";
 import Socials from "./components/Socials"
 import Footer from "./components/Footer";
 
+// For Loading Screen
+import './index.css'
+
+
 function App() {
   return (
-    <div>
+    <div id="app">
       <WelcomeSign src={background} profileimg={profileimg} alt="background" />
       <AboutMe profileimg={profileimg} alt="profile"/>
       <Projects project1={project1} project2={project2} project3={project3} target="_blank"/>
