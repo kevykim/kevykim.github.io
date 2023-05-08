@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useState, useEffect } from "react";
-import { ClipLoader } from "react-spinners";
+import { HashLoader } from "react-spinners";
 
 import WelcomeSign from "./components/WelcomeSign";
 import background from './assets/images/bg.jpg'
@@ -29,20 +29,21 @@ const [loadingScreen, setLoadingScreen] = useState(false)
     setLoadingScreen(true)
     setTimeout(() => {
       setLoadingScreen(false)
-    }, 750)
+    }, 2000)
   }, []);
 
 
   return (
-    <div id="app">
-      {loadingScreen ? 
-      <ClipLoader
-        color={"#000000"}
-        loading={loadingScreen}
-        size={150}
-        aria-label="Loading Spinner"
-        data-testid="loader"
+      <>
+    {loadingScreen ? 
+    <div id="app"> 
+      <HashLoader
+      color={"green"}
+      loading={loadingScreen}
+      size={150}
+      speedMultiplier={1.5}
       />
+    </div>
       : 
       <div>
       <WelcomeSign src={background} profileimg={profileimg} alt="background" />
@@ -53,7 +54,7 @@ const [loadingScreen, setLoadingScreen] = useState(false)
       <Footer />
       </div>
       }
-    </div>
+    </>
   );
 }
 

@@ -5,6 +5,10 @@ html {
       align-items: center; */
 }
 
+    .box {
+      display: flex;
+    }
+
 body {
   background-image: url('./assets/images/bg.jpg');
   margin: 0;
