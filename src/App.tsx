@@ -1,5 +1,9 @@
 // Main HomePage
 
+import React from "react";
+import { useState, useEffect } from "react";
+import { ClipLoader } from "react-spinners";
+
 import WelcomeSign from "./components/WelcomeSign";
 import background from './assets/images/bg.jpg'
 import profileimg from './assets/images/pic01.jpg'
@@ -17,15 +21,38 @@ import Footer from "./components/Footer";
 import './index.css'
 
 
-function App() {
+const App : React.FC = () => {
+
+const [loadingScreen, setLoadingScreen] = useState(false)
+
+  useEffect(() => {
+    setLoadingScreen(true)
+    setTimeout(() => {
+      setLoadingScreen(false)
+    }, 750)
+  }, []);
+
+
   return (
     <div id="app">
+      {loadingScreen ? 
+      <ClipLoader
+        color={"#000000"}
+        loading={loadingScreen}
+        size={150}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
+      : 
+      <div>
       <WelcomeSign src={background} profileimg={profileimg} alt="background" />
       <AboutMe profileimg={profileimg} alt="profile"/>
       <Projects project1={project1} project2={project2} project3={project3} target="_blank"/>
       <Skills />
       <Socials target="_blank"/>
       <Footer />
+      </div>
+      }
     </div>
   );
 }
