@@ -41,7 +41,7 @@ animation: 7s infinite ease-in-out bounce;
     color: white;
     font-size: 15pt;
     font-weight: 600;
-    min-width: 350px;
+    width: 350px;
 }
 
 @-webkit-keyframes bounce {
@@ -235,6 +235,10 @@ animation: 7s infinite ease-in-out bounce;
     }
 }
 
+.profile_con_text {
+    display: flex;
+    flex-direction: row;
+}
 
 #console {
     width: 315px;
@@ -253,4 +257,35 @@ animation: 7s infinite ease-in-out bounce;
 
 .parenthis {
     color: yellow;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 1279px) {
+
+    /* Phone */
+    .welcome_image {
+        width: 320px;
+        height: 420px;
+    }
+
+    .profile_text_div {
+        width: 200px;
+        font-size: 10pt;
+        padding: 0;
+        left: 67%;
+    }
+
+    .welcome_text {
+        width: 320px;
+    }
+
+    .profile_con_text {
+        width: 320px;
+    }
+
+    .profile_inner {
+        width: 200px;
+        font-size: 14pt;
+    }
 }

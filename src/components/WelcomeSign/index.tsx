@@ -37,7 +37,7 @@ const WelcomeSign : React.FC<ImageProps> = ({src, alt, profileimg, width, height
                         <div className="hi">n</div>
                     </div>
                 <img className="profile_image" src={avatarImg} alt="avatar"/>
-                    <div style={{display:"flex", flexDirection:'row'}}>
+                    <div className="profile_con_text">
                     <div id="console">console<span id="period">.</span><span id="log">log</span><span className="parenthis">(</span>
                     </div>
                     <div className="parenthis">);</div>
