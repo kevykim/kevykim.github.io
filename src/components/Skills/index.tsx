@@ -9,7 +9,7 @@ const Skills: React.FC = () => {
             <div className="skills_title">
                 Skills
             </div>
-            <div style={{display:'flex', flexDirection:'row', alignItems:'center'}}>
+            <div className="skills_icons">
 			<img className="skills_image" src="https://skillicons.dev/icons?i=js" alt="skills"/>
 			<img className="skills_image_1" src="https://skillicons.dev/icons?i=ts" alt="skills"/>
 			<img className="skills_image" src="https://skillicons.dev/icons?i=react" alt="skills"/>

@@ -19,6 +19,12 @@
         text-transform: uppercase;
 }
 
+.skills_icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 @-webkit-keyframes bounce {
 	0% {-webkit-transform: translateY(0);}	
 	50% {-webkit-transform: translateY(-10px);}
@@ -104,3 +110,26 @@
 
 
 
+@media (min-width: 320px) and (max-width: 1279px) {
+
+    /* Phone */
+    #skills {
+        min-width: 320px;
+        max-height: 500px;
+    }
+
+    .skills_title {
+        margin: 0;
+        font-size: 10pt;
+        margin-bottom: 25px;
+    }
+
+    .skills_icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
