@@ -15,7 +15,7 @@ const AboutMe : React.FC<ProfileImage> = ({profileimg, alt}) => {
             </div>
             <div className="about_div">
                 <img className="about_image" src={profileimg} alt={alt}/>
-                <div style={{width:'500px', height:"500px"}}>
+                <div className="about_p_div">
                 <p className="about_p">
                 As a former educator turned software engineer, I've discovered a deep passion for building websites and apps from scratch, using a mix of logic and code to create beautiful, functional solutions.
                 With a creative eye for design and a fascination for the endless possibilities of software development, I'm always looking for new challenges and ways to improve my skills.
