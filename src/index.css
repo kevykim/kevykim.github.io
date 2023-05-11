@@ -30,3 +30,17 @@ font-family: "Source Sans Pro", sans-serif;
   width: 100%;
   height: 100vh;
 }
+
+
+@media (max-width: 320px) and (max-width: 1279px) {
+
+  /* MOBILE */
+  body {
+    max-width: auto;
+  }
+
+  html {
+    max-width: auto;
+  }
+
+}
