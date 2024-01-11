@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.85c6b507.css",
-    "main.js": "/static/js/main.ac51a44a.js",
-    "static/js/787.81e085b0.chunk.js": "/static/js/787.81e085b0.chunk.js",
-    "static/media/bg.jpg": "/static/media/bg.4df16353fc2497868b70.jpg",
-    "static/media/wintertrails.png": "/static/media/wintertrails.7af9325b99956294f30d.png",
-    "static/media/artsy.png": "/static/media/artsy.611e5d7b5c30b1eae1af.png",
-    "static/media/pic01.jpg": "/static/media/pic01.71ba4cbd6ded6f1a1683.jpg",
-    "static/media/airbb.png": "/static/media/airbb.d621d257220cb28faa8c.png",
-    "static/media/avatar.png": "/static/media/avatar.801a71a7321b9315bfbf.png",
+    "main.css": "/static/css/main.5b26f059.chunk.css",
+    "main.js": "/static/js/main.56ca0806.chunk.js",
+    "main.js.map": "/static/js/main.56ca0806.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.cd66bee5.js",
+    "runtime~main.js.map": "/static/js/runtime~main.cd66bee5.js.map",
+    "static/js/2.cc2478fb.chunk.js": "/static/js/2.cc2478fb.chunk.js",
+    "static/js/2.cc2478fb.chunk.js.map": "/static/js/2.cc2478fb.chunk.js.map",
+    "static/js/3.69ba5426.chunk.js": "/static/js/3.69ba5426.chunk.js",
+    "static/js/3.69ba5426.chunk.js.map": "/static/js/3.69ba5426.chunk.js.map",
     "index.html": "/index.html",
-    "main.85c6b507.css.map": "/static/css/main.85c6b507.css.map",
-    "main.ac51a44a.js.map": "/static/js/main.ac51a44a.js.map",
-    "787.81e085b0.chunk.js.map": "/static/js/787.81e085b0.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.85c6b507.css",
-    "static/js/main.ac51a44a.js"
-  ]
+    "precache-manifest.afd3200308a60d7240891073dd4b7749.js": "/precache-manifest.afd3200308a60d7240891073dd4b7749.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5b26f059.chunk.css.map": "/static/css/main.5b26f059.chunk.css.map",
+    "static/media/airbb.png": "/static/media/airbb.27330154.png",
+    "static/media/artsy.png": "/static/media/artsy.22f1a501.png",
+    "static/media/avatar.png": "/static/media/avatar.da222d29.png",
+    "static/media/bg.jpg": "/static/media/bg.8f042c7d.jpg",
+    "static/media/pic01.jpg": "/static/media/pic01.b02e163f.jpg",
+    "static/media/wintertrails.png": "/static/media/wintertrails.06c70c53.png"
+  }
 }
