@@ -7,7 +7,7 @@ const Footer : React.FC = () => {
 
     return (
         <div id="footer">
-            Designed by : Kevin Kim
+            Created by : Kevin Kim
         </div>
     )
 };

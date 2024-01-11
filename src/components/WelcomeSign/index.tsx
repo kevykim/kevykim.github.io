@@ -35,6 +35,8 @@ const WelcomeSign : React.FC<ImageProps> = ({src, alt, profileimg, width, height
                         <div className="hi">v</div>
                         <div className="hi">i</div>
                         <div className="hi">n</div>
+                        <div>&nbsp;</div>
+                        <div style={{fontSize:'16px'}} className="hi">👋</div>
                     </div>
                 <img className="profile_image" src={avatarImg} alt="avatar"/>
                     <div className="profile_con_text">

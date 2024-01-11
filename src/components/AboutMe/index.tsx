@@ -16,23 +16,24 @@ const AboutMe : React.FC<ProfileImage> = ({profileimg, alt}) => {
             <div className="about_div">
                 <img className="about_image" src={profileimg} alt={alt}/>
                 <div className="about_p_div">
+                <p className="">
+                    Hi I'm Kevin! <span role="img">👋</span>
+                </p>
                 <p className="about_p">
-                As a former educator turned software engineer, I've discovered a deep passion for building websites and apps from scratch, using a mix of logic and code to create beautiful, functional solutions.
-                With a creative eye for design and a fascination for the endless possibilities of software development, I'm always looking for new challenges and ways to improve my skills.
+                Transitioning from education to software engineering, I've developed a passion for crafting websites and apps with a mix of logic and code. My creative eye for design and fascination with software development's endless possibilities drive my constant pursuit of challenges and skill improvement.
                 </p>
             
                 <p className="about_p">
-                After completing a rigorous 6-month software development bootcamp at App Academy, where I participated in over 1000 hours of lectures, paired programming, and projects, I honed my ability to learn quickly and efficiently, while also developing attributes of resilience, communication, and problem-solving.
-                But even with this intensive training, I know that there is always more to learn and improve upon to become the best software engineer that I can be.
+                After successfully completing a challenging 6-month software development bootcamp at App Academy, I engaged in volunteer initiatives like Chingu and Hack For LA, refining both my teamwork and technical skills.
+                Additionally, my role as a Web Developer Intern at Mindhome offered hands-on exposure to full-stack development. This experience allowed me to improve web applications, enhance user experiences, and sharpen my coding abilities and industry knowledge.
                 </p>
 
                 <p className="about_p">
                 When I'm not coding, you can often find me hiking, snowboarding, or playing video games.
-                I believe in a balanced lifestyle that combines hard work and play, and I'm always interested in meeting like-minded individuals who share my passions.
                 </p>
 
                 <p className="about_p">
-                Feel free to reach out if you'd like to connect or learn more about my work. I look forward to hearing from you!
+                Feel free to reach out if you'd like to connect. I look forward to hearing from you!
                 </p>
                 </div>
             </div>
