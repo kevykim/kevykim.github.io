@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03957d4c27b90716a9b0401bdc864917",
+    "revision": "b38dcffa4614b29c713dc20bf1acc73c",
     "url": "/index.html"
   },
   {
-    "revision": "e0415ab7ebc3c2f5a351",
-    "url": "/static/css/main.5b26f059.chunk.css"
+    "revision": "e2bde30ce20dea2b5990",
+    "url": "/static/css/main.c9680d1a.chunk.css"
   },
   {
     "revision": "4d665d15a336a088dc0e",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/3.69ba5426.chunk.js"
   },
   {
-    "revision": "e0415ab7ebc3c2f5a351",
-    "url": "/static/js/main.56ca0806.chunk.js"
+    "revision": "e2bde30ce20dea2b5990",
+    "url": "/static/js/main.ebb00477.chunk.js"
   },
   {
     "revision": "2bd38feb6fb022a94fd0",
     "url": "/static/js/runtime~main.cd66bee5.js"
+  },
+  {
+    "revision": "a81ff45ebf2f1aa10df144b7a407926a",
+    "url": "/static/media/LeagueSpartan-Regular.a81ff45e.ttf"
   },
   {
     "revision": "273301548cc25db4dce013244ec56902",
