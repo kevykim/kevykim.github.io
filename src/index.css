@@ -9,16 +9,24 @@ html {
       display: flex;
     }
 
+@font-face {
+  font-family: 'LeagueSpartan-Reg';
+  src: url(./assets/fonts/League_Spartan/static/LeagueSpartan-Regular.ttf);
+}
+
 body {
   background-image: url('./assets/images/bg.jpg');
+  background-size: cover;
+  font-family: 'LeagueSpartan-Reg', sans-serif;
+  background-repeat: no-repeat;
+  width: 100%;
   margin: 0;
-font-family: "Source Sans Pro", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-font-family: "Source Sans Pro", sans-serif;
+  font-family: 'LeagueSpartan-Reg', sans-serif;
 }
 
 /* For Loading Screen */
