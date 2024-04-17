@@ -16,8 +16,8 @@
     color: white;
     border-bottom: solid 1px white;
     padding-bottom: 0.5rem;
-    font-weight: 700;
-    margin: 0 795pt 2rem 0;
+    font-family: 'LeagueSpartan-Bold';
+    margin: 0 775pt 2rem 0;
 }
 
 
@@ -39,12 +39,21 @@
 
 .about_p_div {
     width: 500px;
-        height: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about_hi {
+    font-size: 13pt;
+        font-family: 'LeagueSpartan-Med';
 }
 
 .about_p {
     margin: 0 0 2rem 0;
-    font-size: 12.8pt;
+    font-size: 13pt;
+    font-family: 'LeagueSpartan-Med';
 }
 
 

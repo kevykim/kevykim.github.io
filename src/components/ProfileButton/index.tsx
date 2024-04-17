@@ -37,10 +37,10 @@ const ProfileButton : React.FC = () =>  {
         <button className="profile_button" onClick={openMenu}> <i
             className="fa-solid fa-bars fa-2xl"
           ></i> </button>
-        <a className="side_a" href="mailto:kebonkim@gmail.com" target="_blank" rel="noreferrer"><i className="fa-brands fa-google fa-2xl"></i></a>
-				<a className="side_a" href="https://www.linkedin.com/in/kevin-kim-a88429150/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin fa-2xl"></i></a>
-				<a className="side_a" href="https://angel.co/u/kevin-kim-99" target="_blank" rel="noreferrer"><i className="fa-brands fa-angellist fa-2xl"></i></a>
-				<a className="side_a" href="https://github.com/kevykim" target="_blank" rel="noreferrer"><i className="fa-brands fa-github fa-2xl"></i></a>
+        <a className="side_a" href="mailto:kebonkim@gmail.com" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-google fa-2xl"></i></a>
+				<a className="side_a" href="https://www.linkedin.com/in/kevin-kim-a88429150/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin fa-2xl"></i></a>
+				<a className="side_a" href="https://angel.co/u/kevin-kim-99" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-angellist fa-2xl"></i></a>
+				<a className="side_a" href="https://github.com/kevykim" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github fa-2xl"></i></a>
 				<a className="side_a" href="https://docs.google.com/document/d/19daP8CcJ4QXC5EZuWnWLT7eJOEm8rvt7TAZOWhPWqPs/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-file fa-2xl"></i></a>
           </div>
 
