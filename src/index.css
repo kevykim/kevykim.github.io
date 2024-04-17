@@ -14,6 +14,21 @@ html {
   src: url(./assets/fonts/League_Spartan/static/LeagueSpartan-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'LeagueSpartan-Med';
+  src: url(./assets/fonts/League_Spartan/static/LeagueSpartan-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'LeagueSpartan-Bold';
+  src: url(./assets/fonts/League_Spartan/static/LeagueSpartan-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'LeagueSpartan-Black';
+  src: url(./assets/fonts/League_Spartan/static/LeagueSpartan-Black.ttf);
+}
+
 body {
   background-image: url('./assets/images/bg.jpg');
   background-size: cover;

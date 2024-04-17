@@ -1,7 +1,7 @@
 
 .welcome_image {
     min-width: 100%;
-    max-height: 770px;
+    max-height: 760px;
     object-fit: cover;
 }
 
@@ -9,12 +9,10 @@
 display: flex;
 flex-direction: column;
 justify-content: space-around;
-justify-items: center;
-align-content: center;
-align-items: center;
-    width: 200px;
-    height: 200px;
-    text-align: center;
+/* justify-items: center; */
+/* align-content: center; */
+align-items: flex-start;
+    height: 237px;
 }
 
 .profile_image {
@@ -31,17 +29,14 @@ animation: 7s infinite ease-in-out bounce;
 }
 
 
-
 .welcome_text {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    left: 150px;
     position: absolute;
     color: white;
-    font-size: 15pt;
-    font-weight: 600;
-    width: 350px;
 }
 
 @-webkit-keyframes bounce {
@@ -78,60 +73,55 @@ animation: 7s infinite ease-in-out bounce;
 
 
 .hi {
-
-        animation: 5s infinite ease-in-out bounce;
-            -webkit-animation: bounce 5s infinite ease-in-out;
-            -moz-animation: bounce 5s infinite ease-in-out;
-            -o-animation: bounce 5s infinite ease-in-out;
-            -ms-animation: bounce 5s infinite ease-in-out;
-    }
-
+    font-size: 7rem;
+    font-family: 'LeagueSpartan-Black';
+    animation: 5s infinite ease-in-out bounce;
+    -webkit-animation: bounce 5s infinite ease-in-out;
+    -moz-animation: bounce 5s infinite ease-in-out;
+    -o-animation: bounce 5s infinite ease-in-out;
+    -ms-animation: bounce 5s infinite ease-in-out;
+}
 
 .profile_text_div {
-
         position: absolute;
-        top: 93%;
-        left: 70%;
+        top: 100%;
+        left: 46%;
         transform: translate(-50%, -50%);
         height: 60px;
         padding: 0 40px;
         overflow: hidden;
-    width: 235px;
+    width: 245px;
 }
 
 .profile_inner {
     text-align: center;
     color: greenyellow;
     line-height: 60px;
-    width: 200px;
+    font-size: 2rem;
+    width: 290px;
+    font-family: 'LeagueSpartan-Med';
 }
 
 .profile_inner:first-child {
-    animation: rotate 10s infinite;
-    -webkit-animation: rotate 10s infinite;
-    -moz-animation: rotate 10s infinite;
-    -o-animation: rotate 10s infinite;
-    -ms-animation: rotate 10s infinite;
+    animation: rotate 7.5s infinite;
+    -webkit-animation: rotate 7.5s infinite;
+    -moz-animation: rotate 7.5s infinite;
+    -o-animation: rotate 7.5s infinite;
+    -ms-animation: rotate 7.5s infinite;
 }
 
 
 @-webkit-keyframes rotate {
-	   0%{
+	0%{
         margin-top: 0px;
     }
-    16%{
+    25%{
         margin-top: -60px;
     }
-    33%{
-        margin-top: -120px;
-    }
     50%{
-        margin-top: -180px;
-    }
-    66%{
         margin-top: -120px;
     }
-    82%{
+    75%{
         margin-top: -60px;
     }
     100%{
@@ -140,22 +130,16 @@ animation: 7s infinite ease-in-out bounce;
 }
  
 @-moz-keyframes rotate {
-	   0%{
+	0%{
         margin-top: 0px;
     }
-    16%{
+    25%{
         margin-top: -60px;
     }
-    33%{
-        margin-top: -120px;
-    }
     50%{
-        margin-top: -180px;
-    }
-    66%{
         margin-top: -120px;
     }
-    82%{
+    75%{
         margin-top: -60px;
     }
     100%{
@@ -164,22 +148,16 @@ animation: 7s infinite ease-in-out bounce;
 }
  
 @-o-keyframes rotate {
-	   0%{
+	0%{
         margin-top: 0px;
     }
-    16%{
+    25%{
         margin-top: -60px;
     }
-    33%{
-        margin-top: -120px;
-    }
     50%{
-        margin-top: -180px;
-    }
-    66%{
         margin-top: -120px;
     }
-    82%{
+    75%{
         margin-top: -60px;
     }
     100%{
@@ -188,22 +166,16 @@ animation: 7s infinite ease-in-out bounce;
 }
 
 @-ms-keyframes rotate {
-   0%{
+    0%{
         margin-top: 0px;
     }
-    16%{
+    25%{
         margin-top: -60px;
     }
-    33%{
-        margin-top: -120px;
-    }
     50%{
-        margin-top: -180px;
-    }
-    66%{
         margin-top: -120px;
     }
-    82%{
+    75%{
         margin-top: -60px;
     }
     100%{
@@ -215,19 +187,13 @@ animation: 7s infinite ease-in-out bounce;
     0%{
         margin-top: 0px;
     }
-    16%{
+    25%{
         margin-top: -60px;
     }
-    33%{
-        margin-top: -120px;
-    }
     50%{
-        margin-top: -180px;
-    }
-    66%{
         margin-top: -120px;
     }
-    82%{
+    75%{
         margin-top: -60px;
     }
     100%{
@@ -238,10 +204,12 @@ animation: 7s infinite ease-in-out bounce;
 .profile_con_text {
     display: flex;
     flex-direction: row;
+    font-family: 'LeagueSpartan-Med';
+    font-size: 2rem;
 }
 
 #console {
-    width: 315px;
+    width: 437px;
     text-align: left;
     color: rgb(165, 219, 252);
 }
@@ -269,19 +237,31 @@ animation: 7s infinite ease-in-out bounce;
         height: 420px;
     }
 
+    .hi {
+        font-size: 3rem;
+    }
+
+    .profile_image_div {
+        height: 110px;
+        width: 320px;
+    }
+
     .profile_text_div {
         width: 200px;
-        font-size: 10pt;
-        padding: 0;
-        left: 67%;
+        left: 50%;
+        top: 103%;
+    }
+
+    #console {
+        width: 240px;
     }
 
     .welcome_text {
-        width: 320px;
+        left: 100px;
     }
 
     .profile_con_text {
-        width: 320px;
+        font-size: 1rem;
     }
 
     .profile_inner {
