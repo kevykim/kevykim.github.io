@@ -20,7 +20,7 @@ const WelcomeSign : React.FC<ImageProps> = ({src, alt}) => {
             <img className="welcome_image" src={src} alt={alt}/>
             <div className="welcome_text">
                 <div className="profile_image_div">
-                    <div style={{display:'flex', width: '600px', flexDirection: 'column'}}>
+                    <div style={{display:'flex', flexDirection: 'column'}}>
                         <div style={{display:'flex', flexDirection: 'row'}}>
                         <div className="hi">H</div>
                         <div className="hi">i,</div>

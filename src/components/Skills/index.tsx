@@ -1,6 +1,6 @@
 import React from "react";
 import "./skills.css";
-import 'animate.css'
+
 
 const Skills: React.FC = () => {
   return (
