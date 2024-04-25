@@ -1,11 +1,10 @@
 #about {
         background-color: rgba(27, 31, 34, 0.85);
-        height: 700px;
+        height: 550px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-
+        /* justify-content: center; */
 }
 
 .about_title {
@@ -17,7 +16,7 @@
     border-bottom: solid 1px white;
     padding-bottom: 0.5rem;
     font-family: 'LeagueSpartan-Bold';
-    margin: 0 775pt 2rem 0;
+    margin: 45px 775pt 2rem 0;
 }
 
 
@@ -56,6 +55,24 @@
     font-family: 'LeagueSpartan-Med';
 }
 
+.resume_button {
+    text-decoration: none;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-family: 'LeagueSpartan-Bold';
+    border-radius: 25px;
+}
+
+.resume_button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 
 
 
@@ -69,13 +86,13 @@
     .about_div {
         display: flex;
         flex-direction: column;
-        max-width: 320px;
-
+        max-width: 320px;;
     }
 
     .about_title {
         margin: 0;
         font-size: 10pt;
+        margin-top: 25px;
         margin-bottom: 25px;
     }
 
@@ -87,16 +104,22 @@
     .about_p_div {
         max-width: 100%;
         text-align: center;
-
+        align-items: center;
     }
 
     .about_p {
-        font-size: 7.5pt;
+        font-size: 8pt;
         max-width: 100%;
         margin: 0;
-        text-align: center;
+        text-align: left;
         margin-bottom: 10px;
         margin-top: 5px;
+    }
+
+    .resume_button {
+        height: 25px;
+        width: 75px;
+        font-size: 9pt;
     }
 
 
