@@ -32,9 +32,10 @@ animation: 7s infinite ease-in-out bounce;
 .welcome_text {
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
-    /* justify-content: center; */
-    left: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    /* left: 50px; */
     position: absolute;
     color: white;
 }
@@ -85,7 +86,7 @@ animation: 7s infinite ease-in-out bounce;
 .profile_text_div {
         position: absolute;
         top: 100%;
-        left: 46%;
+        left: 39.2%;
         transform: translate(-50%, -50%);
         height: 60px;
         padding: 0 40px;

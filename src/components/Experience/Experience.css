@@ -1,0 +1,21 @@
+#experience {
+    background-color: rgba(27, 31, 34, 0.85);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.experience_title {
+    /* align-self: flex-start; */
+    font-size: 20pt;
+    letter-spacing: 0.5rem;
+    width: max-content;
+    color: white;
+    border-bottom: solid 1px white;
+    padding-bottom: 0.5rem;
+    font-family: 'LeagueSpartan-Bold';
+    margin: 0 696pt 2rem 0;
+}
